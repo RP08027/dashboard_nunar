@@ -123,23 +123,7 @@ const LoginPage = () => {
           </form>
         </div>
 
-        {/* Welcome Card */}
-        <div className="w-full md:w-1/2 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl shadow-2xl p-8 md:-ml-4 transform transition-all duration-500 hover:shadow-3xl">
-          <div className="h-full flex flex-col justify-center text-white">
-            <h2 className="text-4xl font-bold mb-6">New Here?</h2>
-            <p className="text-lg mb-8 opacity-90">
-              Join our community and discover a world of possibilities. Create an account today and start your journey with us.
-            </p>
-            <button className="w-full max-w-xs self-center py-3 px-6 bg-transparent border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
-              Create Account
-            </button>
-            <div className="mt-12">
-              <p className="text-sm opacity-80">
-                By signing up, you agree to our Terms of Service and Privacy Policy.
-              </p>
-            </div>
-          </div>
-        </div>
+    
       </div>
     </div>
   );
